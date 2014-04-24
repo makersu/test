@@ -7,7 +7,14 @@ git config --global --list
 ```
 
 ```
-git add .
+git add . (stages new and modified, without deleted)
+git add -u (stages modified and deleted, without new)
+git add -A (stages All)
+
+git status
+git reset
+git log
+
 git commit -m "add after create-app"
 git push
 ```
