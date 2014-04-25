@@ -12,9 +12,10 @@ git add -u (stages modified and deleted, without new)
 git add -A (stages All)
 
 git status
-git reset
+git reset README.md
 git log
 
+git commit -a
 git commit -m "add after create-app"
 git push
 ```
