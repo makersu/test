@@ -15,7 +15,7 @@ git status
 git reset README.md
 git log
 
-git commit -a
+git commit -a (stages modified but not new)
 git commit -m "add after create-app"
 git push
 ```
