@@ -5,7 +5,9 @@ git config --global user.name "Maker Su"
 git config --global user.email "makersu@gmail.com"
 git config --global --list
 ```
-
+```
+find . -type d -empty -exec touch {}/.gitignore \;
+```
 ```
 git add . (stages new and modified, without deleted)
 git add -u (stages modified and deleted, without new)
