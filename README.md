@@ -15,6 +15,7 @@ git add -A (stages All)
 
 git status
 git reset README.md
+git reset HEAD^ --soft
 git log
 
 git commit -a (stages modified but not new)
