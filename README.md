@@ -17,6 +17,7 @@ git status
 git reset README.md
 git reset HEAD^
 git log
+git diff HEAD^^ HEAD main.c
 
 git commit -a (stages modified but not new)
 git commit -m "add after create-app"
