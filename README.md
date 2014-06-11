@@ -33,3 +33,10 @@ git push
 sudo rm /var/lib/mongodb/mongod.lock
 sudo -u mongodb mongod -f /etc/mongodb.conf --repair
 ```
+
+#phpmyadmin
+```
+sudo nano /etc/apache2/apache2.conf
+Include /etc/phpmyadmin/apache.conf
+sudo service apache2 restart
+```
