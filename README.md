@@ -16,6 +16,7 @@ git add -A (stages All)
 git status
 git reset README.md
 git reset HEAD^
+git reset HEAD^ README.md 
 git log
 git diff HEAD^^ HEAD main.c
 
